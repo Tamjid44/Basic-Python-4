@@ -1,0 +1,6 @@
+lst = list(range(1803001, 1803061))
+i = 0
+for roll_number in lst:
+  roll_number = lst[i]
+  i += 1
+  print(roll_number)
