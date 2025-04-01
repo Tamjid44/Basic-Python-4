@@ -1,0 +1,5 @@
+lst = 10,20,30
+x,y,z = lst
+print('{x} = ',x)
+print('{y} = ',y)
+print('{z} = ',z)
