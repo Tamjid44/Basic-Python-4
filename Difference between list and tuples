@@ -1,0 +1,16 @@
+#---Difference between List and Tuples---
+#--List Operations--
+lst = list(range(0,4))
+lst = [1,2,3]
+lst.append(4)
+print(lst[3])
+lst.reverse()
+print(lst)
+lst.append(0)
+print(lst)
+lst[4] = 10
+print(lst)
+#--Tuples--
+tpl = 101,102,103
+print(tpl)
+#List are mutable (values can be changed) but tuples are not
