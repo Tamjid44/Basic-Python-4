@@ -1,0 +1,20 @@
+#Dictionaries with tuples---
+def student_detail(ID):
+  students =[
+      {'Name': 'Rubel',
+      'ID' : 1803001,
+      'CGPA' : 3.63},
+      {"Name": "Neloy",
+      'ID': 1803002,
+       'CGPA': 3.55},
+      {"Name": "Ratul",
+       "ID": 1803003,
+       "CGPA": 3.70}
+  ]
+  for student in students:
+    if student["ID"] == ID:
+      Name = student["Name"]
+      CGPA = student["CGPA"]
+  return Name, CGPA
+Name, CGPA = student_detail(1803003)
+print(Name, CGPA)
