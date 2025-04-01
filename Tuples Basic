@@ -1,0 +1,5 @@
+#Assigning values in tuples
+tuple_a = 1,2,3,4
+tuple_b= 'Rohan','Enan','Zian','Zahin'
+print(tuple_a[3],tuple_b[3])
+print(tuple_b[3])
