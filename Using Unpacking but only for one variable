@@ -1,0 +1,4 @@
+def unpack(a,b,c):
+  return a,b,c
+_,b,_ = unpack(10, 20, 30)
+print(b)
